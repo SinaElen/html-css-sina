@@ -5,10 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="No matter what adventure you're aiming for,
-    Rainy Days guarantees a dry experience with our waterproof jackets."
+      content="Almost there. Please fill in your information."
     />
-    <title>Rainy Days | Home</title>
+    <title>Rainy Days | Checkout</title>
     <link rel="stylesheet" href="styles.css" />
     <link
       rel="stylesheet"
@@ -54,68 +53,71 @@
         <a href="women.html">Women</a>
       </div>
     </header>
-    <main class="checkout-main">
-      <div class="checkout-header">
-        <h3>Your information</h3>
-      </div>
-      <div class="your-information">
-        <div class="email-information">
-          <p>MAIL</p>
-          <input type="email" name="email" id="your-info-box" />
+    <main>
+      <h1>Checkout</h1>
+      <div class="checkout-main">
+        <div class="checkout-header">
+          <h3>Your information</h3>
         </div>
-        <div class="adress-information">
-          <p>ADRESS</p>
-          <input type="text" name="your-full-name" id="your-info-box" />
-          <input type="text" name="street-adress" id="your-info-box" />
-          <input type="text" name="city" id="your-info-box" />
+        <div class="your-information">
+          <div class="email-information">
+            <p>MAIL</p>
+            <input type="email" name="email" id="your-info-box" />
+          </div>
+          <div class="adress-information">
+            <p>ADRESS</p>
+            <input type="text" name="your-full-name" id="your-info-box" />
+            <input type="text" name="street-adress" id="your-info-box" />
+            <input type="text" name="city" id="your-info-box" />
+          </div>
+          <div class="phone-number-information">
+            <p>PHONE NUMBER</p>
+            <input type="tel" name="phone" id="your-info-box" />
+          </div>
         </div>
-        <div class="phone-number-information">
-          <p>PHONE NUMBER</p>
-          <input type="tel" name="phone" id="your-info-box" />
+        <div class="checkout-header">
+          <h3>Delivery</h3>
         </div>
-      </div>
-      <div class="checkout-header">
-        <h3>Delivery</h3>
-      </div>
-      <div class="delivery-container">
-        <div class="express-container">
-          <p>Express $4.50</p>
-          <input
-            type="radio"
-            name="delivery"
-            value="1-2"
-            id="delivery-express"
-          />
-          <label for="delivery-express">1-2 days</label>
+        <div class="delivery-container">
+          <div class="express-container">
+            <p>Express $4.50</p>
+            <input
+              type="radio"
+              name="delivery"
+              value="1-2"
+              id="delivery-express"
+            />
+            <label for="delivery-express">1-2 days</label>
+          </div>
+          <div class="standard-container">
+            <p>Standard $0.00</p>
+            <input
+              type="radio"
+              name="delivery"
+              value="3-6"
+              id="delivery-standard"
+            />
+            <label for="delivery-express">3-6 days</label>
+          </div>
+          <div class="from-store-container">
+            <p>Bring from store $0.00</p>
+            <input
+              type="radio"
+              name="delivery"
+              value="0-2"
+              id="delivery-from-store"
+            />
+            <label for="delivery-from-store">Max 0-2 days</label>
+          </div>
         </div>
-        <div class="standard-container">
-          <p>Standard $0.00</p>
-          <input
-            type="radio"
-            name="delivery"
-            value="3-6"
-            id="delivery-standard"
-          />
-          <label for="delivery-express">3-6 days</label>
+        <div class="checkout-header">
+          <h3>Payment</h3>
         </div>
-        <div class="from-store-container">
-          <p>Bring from store $0.00</p>
-          <input
-            type="radio"
-            name="delivery"
-            value="0-2"
-            id="delivery-from-store"
-          />
-          <label for="delivery-from-store">Max 0-2 days</label>
+        <div class="payment-container">
+          <a href="order-details.html" class="pay-button">Card</a>
+          <a href="order-details.html" class="pay-button">Paypal</a>
+          <a href="order-details.html" class="pay-button">Klarna</a>
         </div>
-      </div>
-      <div class="checkout-header">
-        <h3>Payment</h3>
-      </div>
-      <div class="payment-container">
-        <a href="order-details.html" class="pay-button">Card</a>
-        <a href="order-details.html" class="pay-button">Paypal</a>
-        <a href="order-details.html" class="pay-button">Klarna</a>
       </div>
     </main>
     <footer>

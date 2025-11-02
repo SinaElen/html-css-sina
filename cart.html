@@ -3,11 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width initial-scale=1.0" />
-    <meta
-      name="description"
-      content="No matter what adventure you're aiming for, Rainy Days guarantees a dry experience with our waterproof jackets."
-    />
-    <title>Rainy Days | Home</title>
+    <meta name="description" content="Your jacket is added to cart." />
+    <title>Rainy Days | Cart</title>
     <link rel="stylesheet" href="styles.css" />
     <link
       rel="stylesheet"
@@ -53,53 +50,56 @@
         <a href="women.html">Women</a>
       </div>
     </header>
-    <main class="main-cart">
-      <div class="cart-product">
-        <img
-          src="images/yellow-hiking.jpg"
-          alt="waterproof-jacket"
-          class="cart-image"
-        />
-        <div class="cart-text">
-          <p>RAINY DAYS</p>
-          <p>Go hiking - Waterproof jacket</p>
-        </div>
-        <div class="number-price">
-          <select name="number" id="number">
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-          </select>
-          <p>$197.5</p>
-        </div>
-        <div class="favourite-remove">
-          <i class="fa-regular fa-heart"></i>
-          <p>Remove</p>
-        </div>
-      </div>
-      <div class="move-to-checkout">
-        <div class="discount-container">
-          <label for="discount-code">Do you have any dicount code?</label>
-          <div class="disc">
-            <input type="text" name="discount-code" id="discount-code" />
-            <button class="apply-button">Apply</button>
+    <main>
+      <h1 class="header-cart">Shopping cart</h1>
+      <div class="whole-cart">
+        <div class="cart-product">
+          <img
+            src="images/yellow-hiking.jpg"
+            alt="waterproof-jacket"
+            class="cart-image"
+          />
+          <div class="cart-text">
+            <p>RAINY DAYS</p>
+            <p>Go hiking - Waterproof jacket</p>
+          </div>
+          <div class="number-price">
+            <select name="number" id="number">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+            <p>$197.5</p>
+          </div>
+          <div class="favourite-remove">
+            <i class="fa-regular fa-heart"></i>
+            <p>Remove</p>
           </div>
         </div>
-        <div class="subtotal">
-          <p>Subtotal</p>
-          <p>$197.50</p>
+        <div class="move-to-checkout">
+          <div class="discount-container">
+            <label for="discount-code">Do you have any dicount code?</label>
+            <div class="disc">
+              <input type="text" name="discount-code" id="discount-code" />
+              <button class="apply-button">Apply</button>
+            </div>
+          </div>
+          <div class="subtotal">
+            <p>Subtotal</p>
+            <p>$197.50</p>
+          </div>
+          <div class="shipping">
+            <p>Shipping</p>
+            <p>$0.00</p>
+          </div>
+          <div class="total">
+            <p>Total</p>
+            <p>$197.50</p>
+          </div>
+          <a href="checkout.html" class="button-checkout">CHECKOUT</a>
         </div>
-        <div class="shipping">
-          <p>Shipping</p>
-          <p>$0.00</p>
-        </div>
-        <div class="total">
-          <p>Total</p>
-          <p>$197.50</p>
-        </div>
-        <a href="checkout.html" class="button-checkout">CHECKOUT</a>
       </div>
     </main>
     <footer>

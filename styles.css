@@ -696,7 +696,11 @@ footer {
 
 /*Cart*/
 
-.main-cart {
+.header-cart {
+  margin-bottom: 0;
+}
+
+.whole-cart {
   display: flex;
   justify-content: space-around;
 }
@@ -802,7 +806,7 @@ footer {
   .cart-product {
     flex-direction: column;
   }
-  .main-cart {
+  .whole-cart {
     flex-direction: column;
   }
 }
